@@ -9,7 +9,7 @@ from app.operations import insert_tickers_data
 import numpy as np
 
 INTERVAL = 1.0
-TICKERS_CNT = 10
+TICKERS_CNT = 100
 
 prices = np.array([0] * TICKERS_CNT)
 
